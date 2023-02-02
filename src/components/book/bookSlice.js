@@ -76,7 +76,7 @@ export const bookSlice = createSlice({
             toast.success("Added to reading list!")
         })
         .addCase(addToReadingList.rejected, (state, action) => {
-            toast.error("Book have been added to the reading list!");
+            toast.error("Book has been added to the reading list!");
         })
         builder
         .addCase(getReadingList.pending, (state) => {
