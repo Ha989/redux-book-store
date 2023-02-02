@@ -11,6 +11,7 @@ const PublicLayout = () => {
             <AlertMsg />
             <PublicNavbar />
             <Outlet />
+            
         </Stack>
     );
 }

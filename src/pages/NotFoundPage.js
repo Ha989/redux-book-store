@@ -10,7 +10,7 @@ function NotFoundPage() {
           Page not found!
         </Typography>
         <Typography sx={{ color: "text.secondary", mb: "1rem" }}>
-          Sorry, we couldn’t find the page you requested.
+          Sorry, we couldn not find the page you requested.
         </Typography>
         <Button to="/" variant="contained" component={RouterLink}>
           Go to Home
